@@ -54,7 +54,7 @@ social:
     url: https://www.linkedin.com/in/gphofficial
   - title: Spotify
     icon: /Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.eps 
-    fallbackicon: /Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_White.png
+    fallbackicon: /Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Black.png
     url: https://open.spotify.com/user/gphofficial
   - title: Telegram
     icon: /Telegram/TelegramLogo2.ai
