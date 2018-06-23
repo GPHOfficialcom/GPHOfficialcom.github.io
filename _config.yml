@@ -1,1 +1,73 @@
-theme: jekyll-theme-slate
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://gphofficial.github.io
+baseurl: /
+title: Goh Puay Hiang
+author: Goh Puay Hiang
+description: Homepage
+avatar: profile.jpeg
+email: gphofficial+public@gmail.com.NOSPAM
+#github: gphofficial # username
+twitter: gphofficial
+linkedin: gphofficial
+stackoverflow: users/1016276/gphofficial   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+#disqus: username
+google_analytics: UA-72214160-2
+
+links:
+  - title: Blog
+    url: /blog/
+  - title: Projects
+    url: /projects.html
+  - title: Resume
+    url: http://jekyller.github.io/vitae
+    external: true
+
+social:
+  - title: Facebook
+    icon: /Facebook/Black/SVG/flogo-RGB-HEX-Blk-72.svg
+    fallbackicon: /Facebook/Black/PNG/flogo-RGB-HEX-Blk-72.png
+    url: https://www.facebook.com/Goh.Puay.Hiang
+  - title: Github
+    icon: /Github/Vector/Github-Mark.ai
+    fallbackicon: /Github/PNG/GitHub-Mark-64px.png
+    url: https://github.com/gphofficial
+  - title: Instagram
+    icon: /Instagram/glyph-logo_May2016.eps
+    fallbackicon: /Instagram/glyph-logo_May2016.png
+    url: https://www.instagram.com/gphofficial/
+  - title: LinkedIn
+    icon: /LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.eps
+    fallbackicon: /LinkedIn/LinkedIn%20%5Bin%5D/Screen/Black/In-Black-75px-TM.png
+    url: https://www.linkedin.com/in/gphofficial
+  - title: Spotify
+    icon: /Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.eps 
+    fallbackicon: /Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_White.png
+    url: https://open.spotify.com/user/gphofficial
+  - title: Telegram
+    icon: /Telegram/TelegramLogo2.ai
+    fallbackicon: /Telegram/Logo1.png
+    url: https://t.me/gphofficial
+  - title: Trakt
+    icon: /Trakt/vector/trakt-icon-black.svg
+    fallbackicon: /Trakt/pixels/trakt-icon-black.png
+    url: https://trakt.tv/users/gphofficial/
+  - title: Twitter
+    icon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnImage/Twitter_Logo_WhiteOnImage.svg
+    fallbackicon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnImage/Twitter_Logo_WhiteOnImage.png
+    url: https://twitter.com/GPHOfficial
+
+# needed for travis-ci build
+exclude: [vendor]
