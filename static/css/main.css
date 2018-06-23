@@ -142,13 +142,22 @@ body {
   text-align: left;
 }
 .social {
-  padding-top: 12px;
+  padding-top: 2em;
   word-spacing: 25px;
 }
 .socialicon{
   height:1em;
   /*width:1em;*/
   transition: transform .2s;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+#textbox{
+  width:480px;
+  max-width:480px;
+  min-height:70px;
 }
 
 .socialicon:hover{
