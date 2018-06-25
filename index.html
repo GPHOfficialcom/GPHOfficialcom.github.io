@@ -23,9 +23,14 @@ layout: home
 	<img class="sparks3" src="{{ site.baseurl }}static/img/easter/sparks.gif"/>
 	<img class="sparks4" src="{{ site.baseurl }}static/img/easter/sparks.gif"/>
 </div>
+<audio controls loop id="nyan">
+	<source src="/static/media/nyan.ogg" type="audio/ogg">
+	<source src="/static/media/nyan.mp3" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/easter.css" />
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="{{ site.baseurl }}static/js/particles.min.js"></script>
 
 <script type="text/javascript">
   function startParticles(){
@@ -102,7 +107,7 @@ layout: home
             "detect_on": "canvas",
             "events": {
                 "onhover": {
-                    "enable": false,
+                    "enable": true,
                     "mode": "grab"
                 },
                 "onclick": {
@@ -150,20 +155,18 @@ layout: home
       displayPicClickCount++;
       if(displayPicClickCount == 5){
         $("body").append('<div id="particles-js"></div>');
-        $("body").append('<audio controls loop id="nyan"><source src="/static/media/nyan.ogg" type="audio/ogg"><source src="/static/media/nyan.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>');
+        $("#nyan").get(0).play();  
         $("body link").appendTo("body");
         $("body script").appendTo("body");
-        $("#nyan").get(0).play();       
-        $(this).addClass("image-spin");
         $("#easterSprites").appendTo('#particles-js');
         $('#displayPic').appendTo('#particles-js');
-
+		$("#nyan").appendTo('body');
+		$(this).addClass("image-spin");
         $("#wrap").remove();
         $("footer").remove();
         $("#particles-js").addClass("particles-js");
         startParticles();
         $("#easterSprites").css("display","initial");
-
       }else if(displayPicClickCount > 10){
       	if(displayPicClickCount % 2 == 0){
       		$("#nyan").get(0).pause();  
