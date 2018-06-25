@@ -40,9 +40,9 @@ social:
     icon: /Facebook/Black/SVG/flogo-RGB-HEX-Blk-72.svg
     fallbackicon: /Facebook/Black/PNG/flogo-RGB-HEX-Blk-72.png
     url: https://www.facebook.com/Goh.Puay.Hiang
-  - title: Github
-    icon: /Github/Vector/Github-Mark.ai
-    fallbackicon: /Github/PNG/GitHub-Mark-64px.png
+  - title: GitHub
+    icon: /GitHub/Vector/Github-Mark.ai
+    fallbackicon: /GitHub/PNG/GitHub-Mark-64px.png
     url: https://github.com/gphofficial
   - title: Instagram
     icon: /Instagram/glyph-logo_May2016.eps
