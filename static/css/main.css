@@ -8,6 +8,8 @@ body {
   /* The html and body elements cannot have any padding or margin. */
 }
 /* Wrapper for page content to push down footer */
+
+
 #wrap {
   padding-bottom: 50px;	
   min-height: 100%;?
@@ -17,6 +19,11 @@ body {
   /* Pad bottom by footer height */
   /*padding: 0 0 60px;*/
 }
+
+h3{
+  line-height:1.35em;
+}
+
 
 /* Navbar
 -------------------------------------------------- */
@@ -142,12 +149,14 @@ body {
   text-align: left;
 }
 .social {
-  padding-top: 2em;
+  padding-top: 18px;
   word-spacing: 25px;
 }
 .socialicon{
-  height:1em;
+  height:1.5em;
+  display: inline-block;
   /*width:1em;*/
+  margin-top:10px;
   transition: transform .2s;
   filter: gray; /* IE6-9 */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -161,7 +170,7 @@ body {
 }
 
 .socialicon:hover{
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 .social h4 > a {
@@ -210,3 +219,89 @@ div.footer{
   padding-bottom: 15px;
   
 }*/
+
+
+
+
+/**
+  Easter Egg section
+**/
+
+.image-spin{ 
+    transform-origin:50% 50%;
+    animation:2s rotateRight infinite linear; 
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: -70px;
+    top: 0;
+    bottom: 0;  
+}
+
+@keyframes rotateRight{
+    100%{ transform:rotate(360deg); }
+}
+
+
+/* ---- reset ---- */
+/*
+ body{
+     margin:0;
+     font:normal 75% Arial, Helvetica, sans-serif;
+}
+*/
+ canvas{
+     display: block;
+     vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+
+ .particles-js{
+     position:absolute;
+     width: 100%;
+     height: 100%;
+     background-color: #000000;
+     background-image: url("http://vincentgarreau.com/particles.js/assets/img/kbLd9vb_new.gif");
+     background-repeat: no-repeat;
+     background-size: 60%;
+     background-position: 0 50%;
+}
+/* ---- stats.js ---- */
+ .count-particles{
+     background: #000022;
+     position: absolute;
+     top: 48px;
+     left: 0;
+     width: 80px;
+     color: #13E8E9;
+     font-size: .8em;
+     text-align: left;
+     text-indent: 4px;
+     line-height: 14px;
+     padding-bottom: 2px;
+     font-family: Helvetica, Arial, sans-serif;
+     font-weight: bold;
+}
+ .js-count-particles{
+     font-size: 1.1em;
+}
+ #stats, .count-particles{
+     -webkit-user-select: none;
+     margin-top: 5px;
+     margin-left: 5px;
+}
+ #stats{
+     border-radius: 3px 3px 0 0;
+     overflow: hidden;
+}
+ .count-particles{
+     border-radius: 0 0 3px 3px;
+}
+
+#nyan{
+  display:none;
+}
+
+/**
+  End
+**/

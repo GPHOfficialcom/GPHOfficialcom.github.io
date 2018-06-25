@@ -21,7 +21,7 @@ email: gphofficial+public@gmail.com.NOSPAM
 #github: gphofficial # username
 twitter: gphofficial
 #linkedin: gphofficial
-stackoverflow: users/1016276/gphofficial   #e.g: users/2735833/proton1h1
+#stackoverflow: users/1016276/gphofficial   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
 #disqus: username
 google_analytics: UA-72214160-2
@@ -67,6 +67,10 @@ social:
   - title: Twitter
     icon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnBlue/Twitter_Logo_WhiteOnBlue.svg
     fallbackicon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnBlue/Twitter_Logo_WhiteOnBlue.png
+    url: https://twitter.com/GPHOfficial
+  - title: stackoverflow
+    icon: /Stackoverflow/SVG/so-icon.svg
+    fallbackicon: /Stackoverflow/PNG/so-icon.png
     url: https://twitter.com/GPHOfficial
 
 # needed for travis-ci build

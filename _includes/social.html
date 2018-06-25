@@ -1,7 +1,7 @@
 <div class="social">
 	<h4>
     {% if site.github %}
-	  <a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>
+	  <!--<a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a>--> 
     {% endif %}
     {% if site.email %}
 	  <!--<a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>--> 
@@ -18,17 +18,17 @@
     {% endif %}
     {% for link in site.social %}
         <a href="{{ link.url }}" target="_blank">
-            <img class="socialicon fa" 
-            src="{{ site.url }}/static/img/brand{{ link.icon }}.asd" 
+            <img class="socialicon" 
+            src="{{ site.url }}/static/img/brand{{ link.icon }}" 
             alt="{{ link.title }}" 
-            {% if link.fallbackicon %}onerror="this.onerror=null; this.src='{{ site.url }}/static/img/brand/{{ link.fallbackicon }}'"{% endif %}
+            {% if link.fallbackicon %}onerror="this.onerror=null; this.src='{{ site.url }}/static/img/brand{{ link.fallbackicon }}'"{% endif %}
             >
         </a>
     {% endfor %}
 	</h4>
 </div>
 <div>
-    <textarea id="textbox">Here's my PGP: 
+ <!--   <textarea id="textbox">Here's my PGP: 
 (You can also refer to my DNS records to verify accuracy, it's a TXT record)
 Here's My Email: {{ site.email }}</textarea>
-</div>
+</div>-->
