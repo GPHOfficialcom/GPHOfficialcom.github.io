@@ -7,6 +7,7 @@
     <meta name="author" content="Goh Puay Hiang" />
     <meta name="description" content="Homepage">
     <link rel="favicon" href="/static/img/favicon.ico">
+    <meta name="theme-color" content="#FFF"/>
 
     
       <title>Goh Puay Hiang</title>
@@ -23,15 +24,15 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+    <link  rel="stylesheet" type="text/css" href="/static/css/main.css"/>
 	<!-- https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old -->
-    <link rel="stylesheet" type="text/css" href="/static/css/googleFont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/googleFont.css" async/>
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" async/>
+    <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" async/>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/jquery.min.js" ></script>
 
     <!-- Google Analytics -->
     <script>
@@ -104,7 +105,7 @@
 	  <!--<a href="http://github.com/{
   "api_url": "https://api.github.com",
   "baseurl": "/pages/GPHOfficialcom/gphofficialcom.github.io",
-  "build_revision": "efbf6dfa9897282d6c0924581e047060b640e984",
+  "build_revision": "c464c3d15024ac1511ace4999d25d4581e15ecdc",
   "clone_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io.git",
   "contributors": [
     {
@@ -126,7 +127,7 @@
       "received_events_url": "https://api.github.com/users/GPHofficial/received_events",
       "type": "User",
       "site_admin": false,
-      "contributions": 10
+      "contributions": 12
     }
   ],
   "environment": "development",
@@ -223,14 +224,14 @@
       "releases_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/releases{/id}",
       "deployments_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/deployments",
       "created_at": "2018-06-23 11:59:39 UTC",
-      "updated_at": "2018-06-25 12:41:09 UTC",
-      "pushed_at": "2018-06-25 12:41:08 UTC",
+      "updated_at": "2018-06-25 14:47:24 UTC",
+      "pushed_at": "2018-06-25 14:47:23 UTC",
       "git_url": "git://github.com/GPHOfficialcom/gphofficialcom.github.io.git",
       "ssh_url": "git@github.com:GPHOfficialcom/gphofficialcom.github.io.git",
       "clone_url": "https://github.com/GPHOfficialcom/gphofficialcom.github.io.git",
       "svn_url": "https://github.com/GPHOfficialcom/gphofficialcom.github.io",
       "homepage": "https://gphofficialcom.github.io",
-      "size": 79745,
+      "size": 79939,
       "stargazers_count": 1,
       "watchers_count": 1,
       "language": "HTML",
@@ -589,7 +590,7 @@
             >
         </a>
     
-        <a href="https://twitter.com/GPHOfficial" target="_blank">
+        <a href="https://stackoverflow.com/users/1016276/gphofficial" target="_blank">
             <img class="socialicon" 
             src="http://localhost:3000/static/img/brand/Stackoverflow/SVG/so-icon.svg" 
             alt="stackoverflow" 
@@ -620,8 +621,8 @@ Here's My Email: gphofficial+public@gmail.com.NOSPAM</textarea>
 	Your browser does not support the audio element.
 </audio>
 
-<link rel="stylesheet" type="text/css" href="/static/css/easter.css" />
-<script src="/static/js/particles.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/css/easter.css" async/>
+<script src="/static/js/particles.min.js" async></script>
 
 <script type="text/javascript">
   function startParticles(){
@@ -746,18 +747,20 @@ Here's My Email: gphofficial+public@gmail.com.NOSPAM</textarea>
       displayPicClickCount++;
       if(displayPicClickCount == 5){
         $("body").append('<div id="particles-js"></div>');
-        $("#nyan").get(0).play();  
+        
         $("body link").appendTo("body");
         $("body script").appendTo("body");
         $("#easterSprites").appendTo('#particles-js');
         $('#displayPic').appendTo('#particles-js');
 		$("#nyan").appendTo('body');
+
 		$(this).addClass("image-spin");
         $("#wrap").remove();
         $("footer").remove();
         $("#particles-js").addClass("particles-js");
         startParticles();
         $("#easterSprites").css("display","initial");
+        $("#nyan").get(0).play();  
       }else if(displayPicClickCount > 10){
       	if(displayPicClickCount % 2 == 0){
       		$("#nyan").get(0).pause();  
@@ -775,22 +778,24 @@ Here's My Email: gphofficial+public@gmail.com.NOSPAM</textarea>
     <footer>
     <div id="footer">
         <div class="container">
-            <p class="text-muted">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="http://www.github.com/jekyller/sustain">sustain</a> with ♥</p>
+            <p class="text-muted">
+            <a href="http://github.com/GPHOfficialcom/gphofficialcom.github.io">Mod</a> with ♥ in SGP &copy; 2018</p>
         </div>
     </div>
 </footer>
 <div class="footer"></div>
 
 
+
+
     
     <!-- Bootstrap core JavaScript -->
-    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap.min.js" async></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/static/js/docs.min.js"></script>
-    <script src="/static/js/main.js"></script>
+    <script src="/static/js/docs.min.js" async></script>
+    <script src="/static/js/main.js" async></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/static/js/ie10-viewport-bug-workaround.js" async></script>
 
    </body>
 </html>

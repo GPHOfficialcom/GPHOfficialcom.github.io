@@ -155,18 +155,20 @@ layout: home
       displayPicClickCount++;
       if(displayPicClickCount == 5){
         $("body").append('<div id="particles-js"></div>');
-        $("#nyan").get(0).play();  
+        
         $("body link").appendTo("body");
         $("body script").appendTo("body");
         $("#easterSprites").appendTo('#particles-js');
         $('#displayPic').appendTo('#particles-js');
 		$("#nyan").appendTo('body');
+
 		$(this).addClass("image-spin");
         $("#wrap").remove();
         $("footer").remove();
         $("#particles-js").addClass("particles-js");
         startParticles();
         $("#easterSprites").css("display","initial");
+        $("#nyan").get(0).play();  
       }else if(displayPicClickCount > 10){
       	if(displayPicClickCount % 2 == 0){
       		$("#nyan").get(0).pause();  
