@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <meta name="author" content="Goh Puay Hiang" />
+    <meta name="author" content="Goh Puay Hiang" />
     <meta name="description" content="Homepage">
     <link rel="favicon" href="/static/img/favicon.ico">
 
@@ -28,7 +28,10 @@
     <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" />
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
     <!-- Google Analytics -->
     <script>
@@ -45,7 +48,7 @@
   <!-- Main Body-->
   <body>
   <!-- Wrap all page content here -->
-  <div id="wrap">
+    <div id="wrap">
     <!-- Navbar header -->
     <nav class="navbar navbar-default">
   <div class="container">
@@ -68,7 +71,7 @@
             
                 <li><a href="http://localhost:3000/projects.html" >Projects</a></li>
             
-                <li><a href="http://jekyller.github.io/vitae" target="_blank">Resume</a></li>
+                <li><a href="https://resume.gphofficial.com" target="_blank">Resume</a></li>
             
           </ul>
         </li>
@@ -520,9 +523,9 @@ c.draw = function() {
 </div>
 
 
-  </div>
-  <!-- Footer -->
-  <footer>
+    </div>
+    <!-- Footer -->
+    <footer>
     <div id="footer">
         <div class="container">
             <p class="text-muted">© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
@@ -533,188 +536,16 @@ c.draw = function() {
 <div class="footer"></div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
     <!-- Bootstrap core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
     integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
     crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="/static/js/docs.min.js"></script>
-  <script src="/static/js/main.js"></script>
+    <script src="/static/js/docs.min.js"></script>
+    <script src="/static/js/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
 
-<!-- particles.js container --> 
-<!-- <div id="particles-js"></div>-->
-  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-  <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
-
-
-<script type="text/javascript">
-  function startParticles(){
-    particlesJS("particles-js", {
-        "particles": {
-            "number": {
-                "value": 100,
-                "density": {
-                    "enable": false,
-                    "value_area": 800
-                }
-            },
-            "color": {
-                "value": "#ffffff"
-            },
-            "shape": {
-                "type": "star",
-                "stroke": {
-                    "width": 0,
-                    "color": "#000000"
-                },
-                "polygon": {
-                    "nb_sides": 5
-                },
-                "image": {
-                    "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
-                    "width": 100,
-                    "height": 100
-                }
-            },
-            "opacity": {
-                "value": 0.5,
-                "random": false,
-                "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
-                    "sync": false
-                }
-            },
-            "size": {
-                "value": 4,
-                "random": true,
-                "anim": {
-                    "enable": false,
-                    "speed": 40,
-                    "size_min": 0.1,
-                    "sync": false
-                }
-            },
-            "line_linked": {
-                "enable": false,
-                "distance": 150,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 1
-            },
-            "move": {
-                "enable": true,
-                "speed": 14,
-                "direction": "left",
-                "random": false,
-                "straight": true,
-                "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                    "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
-                }
-            }
-        },
-        "interactivity": {
-            "detect_on": "canvas",
-            "events": {
-                "onhover": {
-                    "enable": false,
-                    "mode": "grab"
-                },
-                "onclick": {
-                    "enable": true,
-                    "mode": "repulse"
-                },
-                "resize": true
-            },
-            "modes": {
-                "grab": {
-                    "distance": 200,
-                    "line_linked": {
-                        "opacity": 1
-                    }
-                },
-                "bubble": {
-                    "distance": 400,
-                    "size": 40,
-                    "duration": 2,
-                    "opacity": 8,
-                    "speed": 3
-                },
-                "repulse": {
-                    "distance": 200,
-                    "duration": 0.4
-                },
-                "push": {
-                    "particles_nb": 4
-                },
-                "remove": {
-                    "particles_nb": 2
-                }
-            }
-        },
-        "retina_detect": true
-    });
-   /*
-    var count_particles, stats, update;
-    stats = new Stats;
-    stats.setMode(0);
-    stats.domElement.style.position = 'absolute';
-    stats.domElement.style.left = '0px';
-    stats.domElement.style.top = '0px';
-    document.body.appendChild(stats.domElement);
-    count_particles = document.querySelector('.js-count-particles');
-    update = function() {
-        stats.begin();
-        stats.end();
-        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-            count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-        }
-        requestAnimationFrame(update);
-    };
-    requestAnimationFrame(update);;
-    */
-  }
-</script>
-<audio controls loop id="nyan">
-  <source src="/static/media/nyan.ogg" type="audio/ogg">
-  <source src="/static/media/nyan.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<script>
-  var displayPicClickCount = 0;
-  $( document ).ready(function() {
-      $("#displayPic").click(function(){
-      displayPicClickCount++;
-      if(displayPicClickCount == 5){
-        displayPicClickCount = 0;
-        alert("let there b sound");
-        $("#nyan").get(0).play();
-        alert("Easter Egg");
-
-        //$("body").css("background","black")
-        $(this).addClass("image-spin");
-        //$(this).fadeOut();
-        $("body").append('<div id="particles-js"></div>');
-        $('#displayPic').appendTo('#particles-js');
-        $("#wrap").remove();
-        $("footer").remove();
-        $("#particles-js").addClass("particles-js");
-        startParticles();
-        //$(this).fadeIn();
-
-      }
-    });
-  });
-</script>
-
-</body>
+   </body>
 </html>
