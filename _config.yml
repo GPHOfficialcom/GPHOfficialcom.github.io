@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://gphofficialcom.github.io
+url: https://gphofficialcom.github.io
 baseurl: /
 title: Goh Puay Hiang
 author: Goh Puay Hiang
@@ -71,7 +71,7 @@ social:
   - title: stackoverflow
     icon: /Stackoverflow/SVG/so-icon.svg
     fallbackicon: /Stackoverflow/PNG/so-icon.png
-    url: https://twitter.com/GPHOfficial
+    url: https://stackoverflow.com/users/1016276/gphofficial
 
 # needed for travis-ci build
 exclude: [vendor]

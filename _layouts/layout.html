@@ -7,6 +7,7 @@
     <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{{ site.description }}">
     <link rel="favicon" href="{{ site.baseurl }}static/img/favicon.ico">
+    <meta name="theme-color" content="#FFF"/>
 
     {% if page.title %}
       <title>{{ page.title }}</title>
@@ -25,15 +26,15 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css" />
+    <link  rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/main.css"/>
 	<!-- https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/googleFont.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/googleFont.css" async/>
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/syntax.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" async/>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/syntax.css" async/>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{{ site.baseurl }}static/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}static/js/jquery.min.js" ></script>
 
     <!-- Google Analytics -->
     {% include analytics.html %}
@@ -53,12 +54,12 @@
 
     
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ site.baseurl }}static/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}static/js/bootstrap.min.js" async></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{ site.baseurl }}static/js/docs.min.js"></script>
-    <script src="{{ site.baseurl }}static/js/main.js"></script>
+    <script src="{{ site.baseurl }}static/js/docs.min.js" async></script>
+    <script src="{{ site.baseurl }}static/js/main.js" async></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="{{ site.baseurl }}static/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="{{ site.baseurl }}static/js/ie10-viewport-bug-workaround.js" async></script>
 
    </body>
 </html>
