@@ -202,9 +202,10 @@ Here's My Email: gphofficial+public@gmail.com.NOSPAM</textarea>
 
 <script>
 window.onload = function(){
-    $("#lazyload").append('<link rel="stylesheet" type="text/css" href="/static/css/easter.css" async/>');
-    $("#lazyload").append('<script src="/static/js/easter.js" async />');
-    $("#lazyload").append('<script src="/static/js/particles.min.js" async />');
+    $("#lazyload").append('<link rel="stylesheet" type="text/css" href="/static/css/easter.css"/>');
+    $("#lazyload").append('<script src="/static/js/particles.min.js" />');
+    $("#lazyload").append('<script src="/static/js/easter.js" />');
+    console.log("Lazyload done.")
 }
 </script>
 

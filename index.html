@@ -36,8 +36,9 @@ layout: home
 
 <script>
 window.onload = function(){
-    $("#lazyload").append('<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/easter.css" async/>');
-    $("#lazyload").append('<script src="{{ site.baseurl }}static/js/easter.js" async />');
-    $("#lazyload").append('<script src="{{ site.baseurl }}static/js/particles.min.js" async />');
+    $("#lazyload").append('<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/easter.css"/>');
+    $("#lazyload").append('<script src="{{ site.baseurl }}static/js/particles.min.js" />');
+    $("#lazyload").append('<script src="{{ site.baseurl }}static/js/easter.js" />');
+    console.log("Lazyload done.")
 }
 </script>
