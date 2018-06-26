@@ -5,7 +5,7 @@ body {
   height: 100%;
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:16px;
+  font-size:1em;
   /* The html and body elements cannot have any padding or margin. */
 }
 /* Wrapper for page content to push down footer */
@@ -14,9 +14,17 @@ button, input, select, textarea{
   font-size:16px;
 }
 
+.home{
+  height:1em;
+}
+
+#lazyload{
+  display:none;
+}
+
 #wrap {
   padding-bottom: 50px;	
-  min-height: 100%;?
+  min-height: 100%;
   height: auto;
   /* Negative indent footer by its height */
   margin: 0 auto -65px;

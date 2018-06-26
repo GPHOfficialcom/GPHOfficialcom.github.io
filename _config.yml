@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://gphofficialcom.github.io
+url: https://gphofficialcom.github.io/
 baseurl: /
 title: Goh Puay Hiang
 author: Goh Puay Hiang
@@ -41,23 +41,23 @@ social:
     fallbackicon: /Facebook/Black/PNG/flogo-RGB-HEX-Blk-72.png
     url: https://www.facebook.com/Goh.Puay.Hiang
   - title: GitHub
-    icon: /GitHub/Vector/Github-Mark.ai
+    icon: /GitHub/Vector/Github-Mark-small.svg
     fallbackicon: /GitHub/PNG/GitHub-Mark-64px.png
     url: https://github.com/gphofficial
   - title: Instagram
-    icon: /Instagram/glyph-logo_May2016.eps
+    icon: /Instagram/glyph-logo_May2016.svg
     fallbackicon: /Instagram/glyph-logo_May2016.png
     url: https://www.instagram.com/gphofficial/
   - title: LinkedIn
-    icon: /LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.eps
+    icon: /LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.svg
     fallbackicon: /LinkedIn/LinkedIn%20%5Bin%5D/Screen/Black/In-Black-75px-TM.png
     url: https://www.linkedin.com/in/gphofficial
   - title: Spotify
-    icon: /Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.eps 
+    icon: /Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.svg 
     fallbackicon: /Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Black.png
     url: https://open.spotify.com/user/gphofficial
   - title: Telegram
-    icon: /Telegram/TelegramLogo2.ai
+    icon: /Telegram/TelegramLogo2.svg
     fallbackicon: /Telegram/Logo1.png
     url: https://t.me/gphofficial
   - title: Trakt

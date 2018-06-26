@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Goh Puay Hiang" />
     <meta name="description" content="Homepage">
-    <link rel="favicon" href="/static/img/favicon.ico">
+    <link rel="favicon" href="http://localhost:3000/static/img/favicon.ico">
     <meta name="theme-color" content="#FFF"/>
 
     
@@ -14,7 +14,7 @@
     
 
     <!-- Bootstrap -->
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:3000/static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -24,15 +24,15 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link  rel="stylesheet" type="text/css" href="/static/css/main.css"/>
+    <link  rel="stylesheet" type="text/css" href="http://localhost:3000/static/css/main.css"/>
 	<!-- https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old -->
-    <link rel="stylesheet" type="text/css" href="/static/css/googleFont.css" async/>
+    <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/css/googleFont.css" async/>
 
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" async/>
-    <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" async/>
+    
+    <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/css/syntax.css" async/>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="/static/js/jquery.min.js" ></script>
+    <script src="http://localhost:3000/static/js/jquery.min.js" ></script>
 
     <!-- Google Analytics -->
     <script>
@@ -41,7 +41,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-72214160-2', 'auto');
+  ga('create', 'UA-72214160-3', 'auto');
   ga('send', 'pageview');
 
 </script>
@@ -60,7 +60,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button> 
-      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+      <a class="navbar-brand" href="http://localhost:3000">
+        <img class="home" src="http://localhost:3000/static/icons/home.svg" alt="Home"/>
+      </a>
     </div>
 
      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
@@ -102,430 +104,6 @@
 	  <div class="social">
 	<h4>
     
-	  <!--<a href="http://github.com/{
-  "api_url": "https://api.github.com",
-  "baseurl": "/pages/GPHOfficialcom/gphofficialcom.github.io",
-  "build_revision": "c464c3d15024ac1511ace4999d25d4581e15ecdc",
-  "clone_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io.git",
-  "contributors": [
-    {
-      "login": "GPHofficial",
-      "id": 2346151,
-      "node_id": "MDQ6VXNlcjIzNDYxNTE=",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/2346151?v=4",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GPHofficial",
-      "html_url": "https://github.com/GPHofficial",
-      "followers_url": "https://api.github.com/users/GPHofficial/followers",
-      "following_url": "https://api.github.com/users/GPHofficial/following{/other_user}",
-      "gists_url": "https://api.github.com/users/GPHofficial/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/GPHofficial/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/GPHofficial/subscriptions",
-      "organizations_url": "https://api.github.com/users/GPHofficial/orgs",
-      "repos_url": "https://api.github.com/users/GPHofficial/repos",
-      "events_url": "https://api.github.com/users/GPHofficial/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/GPHofficial/received_events",
-      "type": "User",
-      "site_admin": false,
-      "contributions": 12
-    }
-  ],
-  "environment": "development",
-  "help_url": "https://help.github.com",
-  "hostname": "github.com",
-  "is_project_page": true,
-  "is_user_page": false,
-  "issues_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io/issues",
-  "language": "HTML",
-  "latest_release": false,
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdx_id": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "node_id": "MDc6TGljZW5zZTEz"
-  },
-  "organization_members": [
-
-  ],
-  "owner_gravatar_url": "http://github.com/GPHOfficialcom.png",
-  "owner_name": "GPHOfficialcom",
-  "owner_url": "http://github.com/GPHOfficialcom",
-  "pages_env": "development",
-  "pages_hostname": "localhost:4000",
-  "private": false,
-  "project_tagline": null,
-  "project_title": "gphofficialcom.github.io",
-  "public_repositories": [
-    {
-      "id": 138397667,
-      "node_id": "MDEwOlJlcG9zaXRvcnkxMzgzOTc2Njc=",
-      "name": "gphofficialcom.github.io",
-      "full_name": "GPHOfficialcom/gphofficialcom.github.io",
-      "owner": {
-        "login": "GPHOfficialcom",
-        "id": 39646352,
-        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM5NjQ2MzUy",
-        "avatar_url": "https://avatars3.githubusercontent.com/u/39646352?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/GPHOfficialcom",
-        "html_url": "https://github.com/GPHOfficialcom",
-        "followers_url": "https://api.github.com/users/GPHOfficialcom/followers",
-        "following_url": "https://api.github.com/users/GPHOfficialcom/following{/other_user}",
-        "gists_url": "https://api.github.com/users/GPHOfficialcom/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/GPHOfficialcom/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/GPHOfficialcom/subscriptions",
-        "organizations_url": "https://api.github.com/users/GPHOfficialcom/orgs",
-        "repos_url": "https://api.github.com/users/GPHOfficialcom/repos",
-        "events_url": "https://api.github.com/users/GPHOfficialcom/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/GPHOfficialcom/received_events",
-        "type": "Organization",
-        "site_admin": false
-      },
-      "private": false,
-      "html_url": "https://github.com/GPHOfficialcom/gphofficialcom.github.io",
-      "description": null,
-      "fork": false,
-      "url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io",
-      "forks_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/forks",
-      "keys_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/teams",
-      "hooks_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/hooks",
-      "issue_events_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/events",
-      "assignees_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/tags",
-      "blobs_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/languages",
-      "stargazers_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/stargazers",
-      "contributors_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/contributors",
-      "subscribers_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/subscribers",
-      "subscription_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/subscription",
-      "commits_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/merges",
-      "archive_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/downloads",
-      "issues_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/labels{/name}",
-      "releases_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/GPHOfficialcom/gphofficialcom.github.io/deployments",
-      "created_at": "2018-06-23 11:59:39 UTC",
-      "updated_at": "2018-06-25 14:47:24 UTC",
-      "pushed_at": "2018-06-25 14:47:23 UTC",
-      "git_url": "git://github.com/GPHOfficialcom/gphofficialcom.github.io.git",
-      "ssh_url": "git@github.com:GPHOfficialcom/gphofficialcom.github.io.git",
-      "clone_url": "https://github.com/GPHOfficialcom/gphofficialcom.github.io.git",
-      "svn_url": "https://github.com/GPHOfficialcom/gphofficialcom.github.io",
-      "homepage": "https://gphofficialcom.github.io",
-      "size": 79939,
-      "stargazers_count": 1,
-      "watchers_count": 1,
-      "language": "HTML",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": true,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "open_issues_count": 0,
-      "license": {
-        "key": "mit",
-        "name": "MIT License",
-        "spdx_id": "MIT",
-        "url": "https://api.github.com/licenses/mit",
-        "node_id": "MDc6TGljZW5zZTEz"
-      },
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 1,
-      "default_branch": "master"
-    },
-    {
-      "id": 138402725,
-      "node_id": "MDEwOlJlcG9zaXRvcnkxMzg0MDI3MjU=",
-      "name": "pdf.js",
-      "full_name": "GPHOfficialcom/pdf.js",
-      "owner": {
-        "login": "GPHOfficialcom",
-        "id": 39646352,
-        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM5NjQ2MzUy",
-        "avatar_url": "https://avatars3.githubusercontent.com/u/39646352?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/GPHOfficialcom",
-        "html_url": "https://github.com/GPHOfficialcom",
-        "followers_url": "https://api.github.com/users/GPHOfficialcom/followers",
-        "following_url": "https://api.github.com/users/GPHOfficialcom/following{/other_user}",
-        "gists_url": "https://api.github.com/users/GPHOfficialcom/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/GPHOfficialcom/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/GPHOfficialcom/subscriptions",
-        "organizations_url": "https://api.github.com/users/GPHOfficialcom/orgs",
-        "repos_url": "https://api.github.com/users/GPHOfficialcom/repos",
-        "events_url": "https://api.github.com/users/GPHOfficialcom/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/GPHOfficialcom/received_events",
-        "type": "Organization",
-        "site_admin": false
-      },
-      "private": false,
-      "html_url": "https://github.com/GPHOfficialcom/pdf.js",
-      "description": "PDF Reader in JavaScript",
-      "fork": true,
-      "url": "https://api.github.com/repos/GPHOfficialcom/pdf.js",
-      "forks_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/forks",
-      "keys_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/teams",
-      "hooks_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/hooks",
-      "issue_events_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/events",
-      "assignees_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/tags",
-      "blobs_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/languages",
-      "stargazers_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/stargazers",
-      "contributors_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/contributors",
-      "subscribers_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/subscribers",
-      "subscription_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/subscription",
-      "commits_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/merges",
-      "archive_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/downloads",
-      "issues_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/labels{/name}",
-      "releases_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/GPHOfficialcom/pdf.js/deployments",
-      "created_at": "2018-06-23 13:20:15 UTC",
-      "updated_at": "2018-06-23 13:20:19 UTC",
-      "pushed_at": "2018-06-23 11:42:38 UTC",
-      "git_url": "git://github.com/GPHOfficialcom/pdf.js.git",
-      "ssh_url": "git@github.com:GPHOfficialcom/pdf.js.git",
-      "clone_url": "https://github.com/GPHOfficialcom/pdf.js.git",
-      "svn_url": "https://github.com/GPHOfficialcom/pdf.js",
-      "homepage": "",
-      "size": 73437,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "has_issues": false,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": true,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "open_issues_count": 0,
-      "license": {
-        "key": "apache-2.0",
-        "name": "Apache License 2.0",
-        "spdx_id": "Apache-2.0",
-        "url": "https://api.github.com/licenses/apache-2.0",
-        "node_id": "MDc6TGljZW5zZTI="
-      },
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 0,
-      "default_branch": "master"
-    },
-    {
-      "id": 138399236,
-      "node_id": "MDEwOlJlcG9zaXRvcnkxMzgzOTkyMzY=",
-      "name": "resume",
-      "full_name": "GPHOfficialcom/resume",
-      "owner": {
-        "login": "GPHOfficialcom",
-        "id": 39646352,
-        "node_id": "MDEyOk9yZ2FuaXphdGlvbjM5NjQ2MzUy",
-        "avatar_url": "https://avatars3.githubusercontent.com/u/39646352?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/GPHOfficialcom",
-        "html_url": "https://github.com/GPHOfficialcom",
-        "followers_url": "https://api.github.com/users/GPHOfficialcom/followers",
-        "following_url": "https://api.github.com/users/GPHOfficialcom/following{/other_user}",
-        "gists_url": "https://api.github.com/users/GPHOfficialcom/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/GPHOfficialcom/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/GPHOfficialcom/subscriptions",
-        "organizations_url": "https://api.github.com/users/GPHOfficialcom/orgs",
-        "repos_url": "https://api.github.com/users/GPHOfficialcom/repos",
-        "events_url": "https://api.github.com/users/GPHOfficialcom/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/GPHOfficialcom/received_events",
-        "type": "Organization",
-        "site_admin": false
-      },
-      "private": false,
-      "html_url": "https://github.com/GPHOfficialcom/resume",
-      "description": null,
-      "fork": false,
-      "url": "https://api.github.com/repos/GPHOfficialcom/resume",
-      "forks_url": "https://api.github.com/repos/GPHOfficialcom/resume/forks",
-      "keys_url": "https://api.github.com/repos/GPHOfficialcom/resume/keys{/key_id}",
-      "collaborators_url": "https://api.github.com/repos/GPHOfficialcom/resume/collaborators{/collaborator}",
-      "teams_url": "https://api.github.com/repos/GPHOfficialcom/resume/teams",
-      "hooks_url": "https://api.github.com/repos/GPHOfficialcom/resume/hooks",
-      "issue_events_url": "https://api.github.com/repos/GPHOfficialcom/resume/issues/events{/number}",
-      "events_url": "https://api.github.com/repos/GPHOfficialcom/resume/events",
-      "assignees_url": "https://api.github.com/repos/GPHOfficialcom/resume/assignees{/user}",
-      "branches_url": "https://api.github.com/repos/GPHOfficialcom/resume/branches{/branch}",
-      "tags_url": "https://api.github.com/repos/GPHOfficialcom/resume/tags",
-      "blobs_url": "https://api.github.com/repos/GPHOfficialcom/resume/git/blobs{/sha}",
-      "git_tags_url": "https://api.github.com/repos/GPHOfficialcom/resume/git/tags{/sha}",
-      "git_refs_url": "https://api.github.com/repos/GPHOfficialcom/resume/git/refs{/sha}",
-      "trees_url": "https://api.github.com/repos/GPHOfficialcom/resume/git/trees{/sha}",
-      "statuses_url": "https://api.github.com/repos/GPHOfficialcom/resume/statuses/{sha}",
-      "languages_url": "https://api.github.com/repos/GPHOfficialcom/resume/languages",
-      "stargazers_url": "https://api.github.com/repos/GPHOfficialcom/resume/stargazers",
-      "contributors_url": "https://api.github.com/repos/GPHOfficialcom/resume/contributors",
-      "subscribers_url": "https://api.github.com/repos/GPHOfficialcom/resume/subscribers",
-      "subscription_url": "https://api.github.com/repos/GPHOfficialcom/resume/subscription",
-      "commits_url": "https://api.github.com/repos/GPHOfficialcom/resume/commits{/sha}",
-      "git_commits_url": "https://api.github.com/repos/GPHOfficialcom/resume/git/commits{/sha}",
-      "comments_url": "https://api.github.com/repos/GPHOfficialcom/resume/comments{/number}",
-      "issue_comment_url": "https://api.github.com/repos/GPHOfficialcom/resume/issues/comments{/number}",
-      "contents_url": "https://api.github.com/repos/GPHOfficialcom/resume/contents/{+path}",
-      "compare_url": "https://api.github.com/repos/GPHOfficialcom/resume/compare/{base}...{head}",
-      "merges_url": "https://api.github.com/repos/GPHOfficialcom/resume/merges",
-      "archive_url": "https://api.github.com/repos/GPHOfficialcom/resume/{archive_format}{/ref}",
-      "downloads_url": "https://api.github.com/repos/GPHOfficialcom/resume/downloads",
-      "issues_url": "https://api.github.com/repos/GPHOfficialcom/resume/issues{/number}",
-      "pulls_url": "https://api.github.com/repos/GPHOfficialcom/resume/pulls{/number}",
-      "milestones_url": "https://api.github.com/repos/GPHOfficialcom/resume/milestones{/number}",
-      "notifications_url": "https://api.github.com/repos/GPHOfficialcom/resume/notifications{?since,all,participating}",
-      "labels_url": "https://api.github.com/repos/GPHOfficialcom/resume/labels{/name}",
-      "releases_url": "https://api.github.com/repos/GPHOfficialcom/resume/releases{/id}",
-      "deployments_url": "https://api.github.com/repos/GPHOfficialcom/resume/deployments",
-      "created_at": "2018-06-23 12:26:27 UTC",
-      "updated_at": "2018-06-25 10:54:43 UTC",
-      "pushed_at": "2018-06-25 10:54:42 UTC",
-      "git_url": "git://github.com/GPHOfficialcom/resume.git",
-      "ssh_url": "git@github.com:GPHOfficialcom/resume.git",
-      "clone_url": "https://github.com/GPHOfficialcom/resume.git",
-      "svn_url": "https://github.com/GPHOfficialcom/resume",
-      "homepage": null,
-      "size": 3368,
-      "stargazers_count": 0,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "has_issues": true,
-      "has_projects": true,
-      "has_downloads": true,
-      "has_wiki": true,
-      "has_pages": true,
-      "forks_count": 0,
-      "mirror_url": null,
-      "archived": false,
-      "open_issues_count": 0,
-      "license": null,
-      "forks": 0,
-      "open_issues": 0,
-      "watchers": 0,
-      "default_branch": "master"
-    }
-  ],
-  "releases": [
-
-  ],
-  "releases_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io/releases",
-  "repository_name": "gphofficialcom.github.io",
-  "repository_nwo": "GPHOfficialcom/gphofficialcom.github.io",
-  "repository_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io",
-  "show_downloads": true,
-  "source": {
-    "branch": "gh-pages",
-    "path": "/"
-  },
-  "tar_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io/tarball/gh-pages",
-  "url": "http://github.com/pages/GPHOfficialcom/gphofficialcom.github.io",
-  "versions": {
-    "jekyll": "3.7.3",
-    "jekyll-sass-converter": "1.5.2",
-    "kramdown": "1.16.2",
-    "jekyll-commonmark-ghpages": "0.1.5",
-    "liquid": "4.0.0",
-    "rouge": "2.2.1",
-    "github-pages-health-check": "1.8.1",
-    "jekyll-redirect-from": "0.13.0",
-    "jekyll-sitemap": "1.2.0",
-    "jekyll-feed": "0.9.3",
-    "jekyll-gist": "1.5.0",
-    "jekyll-paginate": "1.1.0",
-    "jekyll-coffeescript": "1.1.1",
-    "jekyll-seo-tag": "2.4.0",
-    "jekyll-github-metadata": "2.9.4",
-    "jekyll-avatar": "0.5.0",
-    "jekyll-remote-theme": "0.3.1",
-    "jemoji": "0.9.0",
-    "jekyll-mentions": "1.3.0",
-    "jekyll-relative-links": "0.5.3",
-    "jekyll-optional-front-matter": "0.3.0",
-    "jekyll-readme-index": "0.2.0",
-    "jekyll-default-layout": "0.1.4",
-    "jekyll-titles-from-headings": "0.5.1",
-    "listen": "3.1.5",
-    "activesupport": "4.2.9",
-    "minima": "2.4.1",
-    "jekyll-swiss": "0.4.0",
-    "jekyll-theme-primer": "0.5.3",
-    "jekyll-theme-architect": "0.1.1",
-    "jekyll-theme-cayman": "0.1.1",
-    "jekyll-theme-dinky": "0.1.1",
-    "jekyll-theme-hacker": "0.1.1",
-    "jekyll-theme-leap-day": "0.1.1",
-    "jekyll-theme-merlot": "0.1.1",
-    "jekyll-theme-midnight": "0.1.1",
-    "jekyll-theme-minimal": "0.1.1",
-    "jekyll-theme-modernist": "0.1.1",
-    "jekyll-theme-slate": "0.1.1",
-    "jekyll-theme-tactile": "0.1.1",
-    "jekyll-theme-time-machine": "0.1.1",
-    "ruby": "2.4.1",
-    "github-pages": "185",
-    "html-pipeline": "2.8.0",
-    "sass": "3.5.6",
-    "safe_yaml": "1.0.4",
-    "nokogiri": "1.8.2"
-  },
-  "wiki_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io/wiki",
-  "zip_url": "http://github.com/GPHOfficialcom/gphofficialcom.github.io/zipball/gh-pages"
-}"><i class="fa fa-github"></i></a>--> 
-    
-    
-	  <!--<a href="mailto:gphofficial+public@gmail.com.NOSPAM"><i class="fa fa-envelope"></i></a>--> 
-    
-
-    
-	  <!--<a href="http://twitter.com/gphofficial"><i class="fa fa-twitter"></i></a>--> 
-    
-    
-    
-    
         <a href="https://www.facebook.com/Goh.Puay.Hiang" target="_blank">
             <img class="socialicon" 
             src="http://localhost:3000/static/img/brand/Facebook/Black/SVG/flogo-RGB-HEX-Blk-72.svg" 
@@ -536,7 +114,7 @@
     
         <a href="https://github.com/gphofficial" target="_blank">
             <img class="socialicon" 
-            src="http://localhost:3000/static/img/brand/GitHub/Vector/Github-Mark.ai" 
+            src="http://localhost:3000/static/img/brand/GitHub/Vector/Github-Mark-small.svg" 
             alt="GitHub" 
             onerror="this.onerror=null; this.src='http://localhost:3000/static/img/brand/GitHub/PNG/GitHub-Mark-64px.png'"
             >
@@ -544,7 +122,7 @@
     
         <a href="https://www.instagram.com/gphofficial/" target="_blank">
             <img class="socialicon" 
-            src="http://localhost:3000/static/img/brand/Instagram/glyph-logo_May2016.eps" 
+            src="http://localhost:3000/static/img/brand/Instagram/glyph-logo_May2016.svg" 
             alt="Instagram" 
             onerror="this.onerror=null; this.src='http://localhost:3000/static/img/brand/Instagram/glyph-logo_May2016.png'"
             >
@@ -552,7 +130,7 @@
     
         <a href="https://www.linkedin.com/in/gphofficial" target="_blank">
             <img class="socialicon" 
-            src="http://localhost:3000/static/img/brand/LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.eps" 
+            src="http://localhost:3000/static/img/brand/LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.svg" 
             alt="LinkedIn" 
             onerror="this.onerror=null; this.src='http://localhost:3000/static/img/brand/LinkedIn/LinkedIn%20%5Bin%5D/Screen/Black/In-Black-75px-TM.png'"
             >
@@ -560,7 +138,7 @@
     
         <a href="https://open.spotify.com/user/gphofficial" target="_blank">
             <img class="socialicon" 
-            src="http://localhost:3000/static/img/brand/Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.eps" 
+            src="http://localhost:3000/static/img/brand/Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.svg" 
             alt="Spotify" 
             onerror="this.onerror=null; this.src='http://localhost:3000/static/img/brand/Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Black.png'"
             >
@@ -568,7 +146,7 @@
     
         <a href="https://t.me/gphofficial" target="_blank">
             <img class="socialicon" 
-            src="http://localhost:3000/static/img/brand/Telegram/TelegramLogo2.ai" 
+            src="http://localhost:3000/static/img/brand/Telegram/TelegramLogo2.svg" 
             alt="Telegram" 
             onerror="this.onerror=null; this.src='http://localhost:3000/static/img/brand/Telegram/Logo1.png'"
             >
@@ -607,169 +185,31 @@ Here's My Email: gphofficial+public@gmail.com.NOSPAM</textarea>
 </div>-->
 	</div>
 </section>
-
-<div id="easterSprites">
-	<img class="rainbow" src="/static/img/easter/rainbow.gif"/>
-	<img class="sparks1" src="/static/img/easter/sparks.gif"/>
-	<img class="sparks2" src="/static/img/easter/sparks.gif"/>
-	<img class="sparks3" src="/static/img/easter/sparks.gif"/>
-	<img class="sparks4" src="/static/img/easter/sparks.gif"/>
+<div id="lazyload">
+    <div id="easterSprites">
+    	<img class="rainbow" src="/static/img/easter/rainbow.gif"/>
+    	<img class="sparks1" src="/static/img/easter/sparks.gif"/>
+    	<img class="sparks2" src="/static/img/easter/sparks.gif"/>
+    	<img class="sparks3" src="/static/img/easter/sparks.gif"/>
+    	<img class="sparks4" src="/static/img/easter/sparks.gif"/>
+    </div>
+    <audio controls loop id="nyan">
+    	<source src="/static/media/nyan.ogg" type="audio/ogg">
+    	<source src="/static/media/nyan.mp3" type="audio/mpeg">
+    	Your browser does not support the audio element.
+    </audio>
 </div>
-<audio controls loop id="nyan">
-	<source src="/static/media/nyan.ogg" type="audio/ogg">
-	<source src="/static/media/nyan.mp3" type="audio/mpeg">
-	Your browser does not support the audio element.
-</audio>
 
-<link rel="stylesheet" type="text/css" href="/static/css/easter.css" async/>
-<script src="/static/js/particles.min.js" async></script>
 
-<script type="text/javascript">
-  function startParticles(){
-    particlesJS("particles-js", {
-        "particles": {
-            "number": {
-                "value": 100,
-                "density": {
-                    "enable": false,
-                    "value_area": 800
-                }
-            },
-            "color": {
-                "value": "#ffffff"
-            },
-            "shape": {
-                "type": "star",
-                "stroke": {
-                    "width": 0,
-                    "color": "#000000"
-                },
-                "polygon": {
-                    "nb_sides": 5
-                },
-                "image": {
-                    "src": "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
-                    "width": 100,
-                    "height": 100
-                }
-            },
-            "opacity": {
-                "value": 0.5,
-                "random": false,
-                "anim": {
-                    "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
-                    "sync": false
-                }
-            },
-            "size": {
-                "value": 4,
-                "random": true,
-                "anim": {
-                    "enable": false,
-                    "speed": 40,
-                    "size_min": 0.1,
-                    "sync": false
-                }
-            },
-            "line_linked": {
-                "enable": false,
-                "distance": 150,
-                "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 1
-            },
-            "move": {
-                "enable": true,
-                "speed": 14,
-                "direction": "left",
-                "random": false,
-                "straight": true,
-                "out_mode": "out",
-                "bounce": false,
-                "attract": {
-                    "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
-                }
-            }
-        },
-        "interactivity": {
-            "detect_on": "canvas",
-            "events": {
-                "onhover": {
-                    "enable": true,
-                    "mode": "grab"
-                },
-                "onclick": {
-                    "enable": true,
-                    "mode": "repulse"
-                },
-                "resize": true
-            },
-            "modes": {
-                "grab": {
-                    "distance": 200,
-                    "line_linked": {
-                        "opacity": 1
-                    }
-                },
-                "bubble": {
-                    "distance": 400,
-                    "size": 40,
-                    "duration": 2,
-                    "opacity": 8,
-                    "speed": 3
-                },
-                "repulse": {
-                    "distance": 200,
-                    "duration": 0.4
-                },
-                "push": {
-                    "particles_nb": 4
-                },
-                "remove": {
-                    "particles_nb": 2
-                }
-            }
-        },
-        "retina_detect": true
-    });
-   
-  }
-</script>
+
+<!-- Load easter only after page load done -->
 
 <script>
-  var displayPicClickCount = 0;
-  $( document ).ready(function() {
-      $("#displayPic").click(function(){
-      displayPicClickCount++;
-      if(displayPicClickCount == 5){
-        $("body").append('<div id="particles-js"></div>');
-        
-        $("body link").appendTo("body");
-        $("body script").appendTo("body");
-        $("#easterSprites").appendTo('#particles-js');
-        $('#displayPic').appendTo('#particles-js');
-		$("#nyan").appendTo('body');
-
-		$(this).addClass("image-spin");
-        $("#wrap").remove();
-        $("footer").remove();
-        $("#particles-js").addClass("particles-js");
-        startParticles();
-        $("#easterSprites").css("display","initial");
-        $("#nyan").get(0).play();  
-      }else if(displayPicClickCount > 10){
-      	if(displayPicClickCount % 2 == 0){
-      		$("#nyan").get(0).pause();  
-      	}else{
-      		$("#nyan").get(0).play();  
-      	}
-      }
-    });
-  });
+window.onload = function(){
+    $("#lazyload").append('<link rel="stylesheet" type="text/css" href="/static/css/easter.css" async/>');
+    $("#lazyload").append('<script src="/static/js/easter.js" async />');
+    $("#lazyload").append('<script src="/static/js/particles.min.js" async />');
+}
 </script>
 
 
@@ -790,12 +230,12 @@ Here's My Email: gphofficial+public@gmail.com.NOSPAM</textarea>
 
     
     <!-- Bootstrap core JavaScript -->
-    <script src="/static/js/bootstrap.min.js" async></script>
+    <script src="http://localhost:3000/static/js/bootstrap.min.js" async></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/static/js/docs.min.js" async></script>
-    <script src="/static/js/main.js" async></script>
+    <script src="http://localhost:3000/static/js/docs.min.js" async></script>
+    <script src="http://localhost:3000/static/js/main.js" async></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/static/js/ie10-viewport-bug-workaround.js" async></script>
+    <script src="http://localhost:3000/static/js/ie10-viewport-bug-workaround.js" async></script>
 
    </body>
 </html>
