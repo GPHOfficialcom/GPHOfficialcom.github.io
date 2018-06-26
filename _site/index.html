@@ -28,23 +28,19 @@
 	<!-- https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old -->
     <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/css/googleFont.css" async/>
 
-    
     <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/css/syntax.css" async/>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="http://localhost:3000/static/js/jquery.min.js" ></script>
-
     <!-- Google Analytics -->
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-72214160-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-72214160-3', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-72214160-3');
 </script>
+
   </head>
   <!-- Main Body-->
   <body>
@@ -228,7 +224,8 @@ window.onload = function(){
 
 
 
-    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://localhost:3000/static/js/jquery.min.js" async></script>
     <!-- Bootstrap core JavaScript -->
     <script src="http://localhost:3000/static/js/bootstrap.min.js" async></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
