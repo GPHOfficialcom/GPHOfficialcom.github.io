@@ -31,7 +31,8 @@ links:
     url: https://status.gphofficial.com/
     external: true
   - title: Blog
-    url: /blog/
+    url: https://blog.gphofficial.com/
+    external: true
   - title: Projects
     url: /projects.html
   - title: Resume
