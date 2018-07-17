@@ -66,7 +66,9 @@
         <li class="dropdown">
           <ul class="nav navbar-nav navbar-right">
             
-                <li><a href="http://localhost:3000/blog/" >Blog</a></li>
+                <li><a href="https://status.gphofficial.com/" target="_blank">Status</a></li>
+            
+                <li><a href="https://blog.gphofficial.com/" target="_blank">Blog</a></li>
             
                 <li><a href="http://localhost:3000/projects.html" >Projects</a></li>
             
@@ -134,6 +136,15 @@
 </section>
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" async/>
+<script>
+
+var elements = document.querySelectorAll("li.dropdown .navbar-right li a");
+Array.prototype.forEach.call(elements, function(element){
+	if(element.text == "Projects"){
+		element.setAttribute("id", "NavbarCurrent");
+	}
+});
+</script>
 
 
 

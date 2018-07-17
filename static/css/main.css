@@ -94,8 +94,20 @@ h3{
   overflow-y: visible;
 }
 
+#NavbarCurrent{
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   color:#000;
+   text-decoration: none;
+}
+
 
 @media (max-width: 767px) {
+  #NavbarCurrent{
+    border-bottom-width: 0px;
+    text-decoration: underline;
+  }
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
   }
