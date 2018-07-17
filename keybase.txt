@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gphofficial
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gphofficial.com
+  * I am gphofficial (https://keybase.io/gphofficial) on keybase.
+  * I have a public key ASBKsMAFqLeq-MfHzqDldol4jNQvjkBdxpE8pymUHTqqoQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204ab0c005a8b7aaf8c7c7cea0e57689788cd42f8e405dc6913ca729941d3aaaa10a",
+      "host": "keybase.io",
+      "kid": "01204ab0c005a8b7aaf8c7c7cea0e57689788cd42f8e405dc6913ca729941d3aaaa10a",
+      "uid": "24d80f06d1cc0f73eb9ac8a01f7e0019",
+      "username": "gphofficial"
+    },
+    "merkle_root": {
+      "ctime": 1531663275,
+      "hash": "699c3814dcdf30b9bf7be0997f6cb12fafa800236b10558b522aeb72dd35debb3b314d6f751efdda85777c28dd5dc9c96baf4af317b9dde35dce70a1481dd12d",
+      "hash_meta": "67925b3ab26f56f927c8818b4c0666d7b9333d5290ddbabcff15e52f192e5590",
+      "seqno": 3268438
+    },
+    "service": {
+      "entropy": "+FLwNS10Xfg8HPEg3tMrPTcz",
+      "hostname": "gphofficial.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1531663291,
+  "expire_in": 504576000,
+  "prev": "6a5e130a105b5464c58ea28056fd17be129830d6e47d4da8e7babc597ba90a59",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgSrDABai3qvjHx86g5XaJeIzUL45AXcaRPKcplB06qqEKp3BheWxvYWTESpcCJ8Qgal4TChBbVGTFjqKAVv0XvhKYMNbkfU2o57q8WXupClnEIEk0Q11XUpFV2B7MZHD5csAIACSJ1PJRAM6mECultgZzAgHCo3NpZ8RA2p+YSx0OEcszhESoLznU5DQDzGXKwUze8hXsF1CQ3s8zFeN/OTLV/7+3XT5QK2jko9VfrJuVOzj/6duN28R5B6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGv4lflcsYLJ1pkVzlAfCOj/g1WzTOEwPYer5exzNUZPo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gphofficial
+
+==================================================================

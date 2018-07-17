@@ -27,8 +27,12 @@ twitter: gphofficial
 google_analytics: UA-72214160-3
 
 links:
+  - title: Status
+    url: https://status.gphofficial.com/
+    external: true
   - title: Blog
-    url: /blog/
+    url: https://blog.gphofficial.com/
+    external: true
   - title: Projects
     url: /projects.html
   - title: Resume
