@@ -35,7 +35,7 @@ layout: home
 <!-- Load easter only after page load done -->
 
 <script>
-document.addEventListener("DOMContentLloaded", function(event){
+document.addEventListener("DOMContentLoaded", function(event){
     console.log("Lazyload run");
     $("#lazyload").append('<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}static/css/easter.css"/>');
     $("#lazyload").append('<script src="{{ site.baseurl }}static/js/particles.min.js" />');
