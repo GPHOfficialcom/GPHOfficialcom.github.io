@@ -17,9 +17,9 @@ title: Goh Puay Hiang
 author: Goh Puay Hiang
 description: Puay Hiang's Homepage
 avatar: profile.jpeg
-email: gphofficial+public@gmail.com.NOSPAM
+email: gphofficial+public@gmail.com
 #github: gphofficial # username
-twitter: gphofficial
+twitter: puayhiang_goh
 #linkedin: gphofficial
 #stackoverflow: users/1016276/gphofficial   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
@@ -33,8 +33,8 @@ links:
   - title: Blog
     url: https://blog.gphofficial.com/
     external: true
-  - title: Projects
-    url: /projects.html
+#   - title: Projects
+#     url: /projects.html
   - title: Resume
     url: https://link.gphofficial.com/cv
     external: true
