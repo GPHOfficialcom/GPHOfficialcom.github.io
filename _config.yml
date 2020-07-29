@@ -19,7 +19,7 @@ description: Puay Hiang's Homepage
 avatar: profile.jpeg
 email: gphofficial+public@gmail.com
 #github: gphofficial # username
-twitter: puayhiang_goh
+# twitter: puayhiang_goh
 #linkedin: gphofficial
 #stackoverflow: users/1016276/gphofficial   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
@@ -35,35 +35,35 @@ links:
     external: true
 #   - title: Projects
 #     url: /projects.html
-  - title: Resume
-    url: https://link.gphofficial.com/cv
-    external: true
+#   - title: Resume
+#     url: https://link.gphofficial.com/cv
+#     external: true
 
-social:
-  - title: Facebook
-    icon: /Facebook/Black/SVG/flogo-RGB-HEX-Blk-72.svg
-    fallbackicon: /Facebook/Black/PNG/flogo-RGB-HEX-Blk-72.png
-    url: https://www.facebook.com/puayhiang.goh
-  - title: Twitter
-    icon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnBlue/Twitter_Logo_WhiteOnBlue.svg
-    fallbackicon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnBlue/Twitter_Logo_WhiteOnBlue.png
-    url: https://twitter.com/puayhiang_goh
-  - title: Instagram
-    icon: /Instagram/glyph-logo_May2016.svg
-    fallbackicon: /Instagram/glyph-logo_May2016.png
-    url: https://www.instagram.com/puayhiang.goh/
+# social:
+#   - title: Facebook
+#     icon: /Facebook/Black/SVG/flogo-RGB-HEX-Blk-72.svg
+#     fallbackicon: /Facebook/Black/PNG/flogo-RGB-HEX-Blk-72.png
+#     url: https://www.facebook.com/puayhiang.goh
+#   - title: Twitter
+#     icon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnBlue/Twitter_Logo_WhiteOnBlue.svg
+#     fallbackicon: /Twitter/Twitter%20Logos/Twitter_Logo_WhiteOnBlue/Twitter_Logo_WhiteOnBlue.png
+#     url: https://twitter.com/puayhiang_goh
+#   - title: Instagram
+#     icon: /Instagram/glyph-logo_May2016.svg
+#     fallbackicon: /Instagram/glyph-logo_May2016.png
+#     url: https://www.instagram.com/puayhiang.goh/
 #   - title: Telegram
 #     icon: /Telegram/TelegramLogo2.svg
 #     fallbackicon: /Telegram/Logo1.png
 #     url: https://t.me/gphofficial
-  - title: GitHub
-    icon: /GitHub/Vector/Github-Mark-small.svg
-    fallbackicon: /GitHub/PNG/GitHub-Mark-64px.png
-    url: https://github.com/gphofficial
-  - title: LinkedIn
-    icon: /LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.svg
-    fallbackicon: /LinkedIn/LinkedIn%20%5Bin%5D/Screen/Black/In-Black-75px-TM.png
-    url: https://www.linkedin.com/in/puayhiang
+#   - title: GitHub
+#     icon: /GitHub/Vector/Github-Mark-small.svg
+#     fallbackicon: /GitHub/PNG/GitHub-Mark-64px.png
+#     url: https://github.com/gphofficial
+#   - title: LinkedIn
+#     icon: /LinkedIn/LinkedIn%20%5Bin%5D/Print/Black/In-Black-0p75in-TM.svg
+#     fallbackicon: /LinkedIn/LinkedIn%20%5Bin%5D/Screen/Black/In-Black-75px-TM.png
+#     url: https://www.linkedin.com/in/puayhiang
 #   - title: Spotify
 #     icon: /Spotify/icons/01_RGB/01_EPS/Spotify_Icon_RGB_Black.svg 
 #     fallbackicon: /Spotify/icons/01_RGB/02_PNG/Spotify_Icon_RGB_Black.png
