@@ -11,7 +11,7 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://gphofficial.com
+url: https://gphofficialcom.github.io
 baseurl: /
 title: Goh Puay Hiang
 author: Puay Hiang
@@ -27,12 +27,15 @@ email: gphofficial+public@gmail.com
 google_analytics: UA-72214160-3
 
 links:
-  - title: Status
-    url: https://status.gphofficial.com/
+  - title: New Website
+    url: https://puayhiang.com/
     external: true
-  - title: Blog
-    url: https://blog.gphofficial.com/
-    external: true
+#   - title: Status
+#     url: https://status.gphofficial.com/
+#     external: true
+#   - title: Blog
+#     url: https://blog.gphofficial.com/
+#     external: true
 #   - title: Projects
 #     url: /projects.html
 #   - title: Resume
